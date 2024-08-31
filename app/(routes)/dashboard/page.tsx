@@ -29,7 +29,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (user) {
-      checkUser();
+      
     }
   }, [user, checkUser]);
 

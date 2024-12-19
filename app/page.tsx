@@ -7,11 +7,11 @@ import { log } from "console";
 
 export default function Home() {
 
-  const {user} = useKindeBrowserClient();
+  // const {user} = useKindeBrowserClient();
 
-  useEffect(() => {
-    console.log(user);
-  }, [user])
+  // useEffect(() => {
+  //   console.log(user);
+  // }, [user])
   return (
     <div>
       <Header />

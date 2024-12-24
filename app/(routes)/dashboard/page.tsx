@@ -1,7 +1,7 @@
 'use client'
 import { LogoutLink, useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
 import { useConvex, useMutation, useQuery } from 'convex/react'
-import { api } from '@/convex/_generated/api';
+import { api } from '@/convex/_generated/api'
 import React, { useEffect } from 'react'
 
 

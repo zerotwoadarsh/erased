@@ -4,7 +4,7 @@ import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs';
 import { useConvex } from 'convex/react';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
-// import SideNav from './_components/SideNav';
+import SideNav from './_components/SideNav';
 // import { FileListContext } from '@/app/_context/FilesListContext';
 
 function DashboardLayout(
@@ -37,7 +37,7 @@ function DashboardLayout(
       {/* <FileListContext.Provider value={{fileList_,setFileList_}}> */}
       <div className='grid grid-cols-4'>
           <div className='bg-white h-screen w-72 fixed'>
-          {/* <SideNav/> */}
+          <SideNav/>
           </div>
           <div className='col-span-4 ml-72'>
           {children}

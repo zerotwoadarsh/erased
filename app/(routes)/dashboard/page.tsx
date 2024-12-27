@@ -35,8 +35,6 @@ function Dashboard() {
 
   return (
     <div>
-
-      <div>Dashboard</div>
       <button>
         <LogoutLink>Logout</LogoutLink>
       </button>

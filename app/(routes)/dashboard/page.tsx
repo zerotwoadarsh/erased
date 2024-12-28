@@ -3,6 +3,8 @@ import { LogoutLink, useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
 import { useConvex, useMutation, useQuery } from 'convex/react'
 import { api } from '@/convex/_generated/api'
 import React, { useEffect } from 'react'
+import DashboardTable from './_components/DashboardTable'
+import DashboardHeader from './_components/DashboardHeader'
 
 
 
@@ -34,10 +36,14 @@ function Dashboard() {
   }, [user]);
 
   return (
-    <div>
-      <button>
+    
+    <div className="text-white">
+      {/* <button>
         <LogoutLink>Logout</LogoutLink>
-      </button>
+      </button> */}
+      <DashboardHeader user={user} />
+      <DashboardTable />
+    
     </div>
   )
 }

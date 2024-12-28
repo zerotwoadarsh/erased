@@ -5,7 +5,7 @@ import { useConvex } from 'convex/react';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import SideNav from './_components/SideNav';
-// import { FileListContext } from '@/app/_context/FilesListContext';
+import { FileListContext } from '@/app/_context/FileListContext';
 
 function DashboardLayout(
     {
@@ -34,7 +34,7 @@ function DashboardLayout(
 
   return (
     <div>
-      {/* <FileListContext.Provider value={{fileList_,setFileList_}}> */}
+      <FileListContext.Provider value={{fileList_,setFileList_}}>
       <div className='grid grid-cols-4'>
           <div className='bg-white h-screen w-72 fixed'>
           <SideNav/>
@@ -43,7 +43,7 @@ function DashboardLayout(
           {children}
           </div>
       </div>
-      {/* </FileListContext.Provider> */}
+      </FileListContext.Provider>
      
       </div>
   )

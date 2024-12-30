@@ -43,7 +43,6 @@ function Dashboard() {
       </button> */}
       <DashboardHeader user={user} />
       <DashboardTable />
-    
     </div>
   )
 }

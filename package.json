@@ -9,6 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/editorjs": "^2.30.7",
+    "@editorjs/header": "^2.8.8",
+    "@editorjs/link": "^2.6.2",
+    "@editorjs/list": "^2.0.2",
+    "@editorjs/simple-image": "^1.6.0",
+    "@excalidraw/excalidraw": "^0.17.6",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@kinde-oss/kinde-auth-nextjs": "^2.3.6",
     "@radix-ui/react-dialog": "^1.1.4",
@@ -30,6 +37,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-fontawesome": "^1.7.1",
+    "react-resizable-panels": "^2.1.7",
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"

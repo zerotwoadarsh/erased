@@ -33,7 +33,7 @@ export const updateDocument = mutation({
     document: v.string(),
   },
   handler: async (ctx, args) => {
-    return await ctx.db.patch(args._id, { document: args.document });
+    return await ctx.db.patch(args._id, { document: args.document }); // patch is as update the info
   },
 });
 

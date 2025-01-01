@@ -77,6 +77,8 @@ const DashboardTable = () => {
                   {file.fileName}
                 </TableCell>
                 <TableCell className=""></TableCell>
+
+
                 <TableCell className="w-[150px] text-sm">
                   <div>
                     <img
@@ -89,9 +91,13 @@ const DashboardTable = () => {
                     />
                   </div>
                 </TableCell>
+
+
                 <TableCell className="w-[150px] text-sm">
                   {moment(file._creationTime).format("DD MMM YYYY")}
                 </TableCell>
+
+                
                 <TableCell className="pr-2">
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild className="outline-none">
